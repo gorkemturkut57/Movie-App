@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieApp | Choose Your Plan</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+
+    <style>
+
+
+      h1 {
+        margin-top: 50px;
+        font-size: 26px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+
+      .check {
+        font-size: 25px;
+      }
+
+      .head {
+        margin-left: 100px;
+      }
+
+      .features {
+        background-color: #edf5f7;
+        height: 350px;
+        margin-top: 40px;
+        float: left;
+      }
+
+      .image {
+        height: 100%;
+        float: left;
+      }
+
+      #features_link {
+        color: white;
+        background-color: #fc997c;
+        float: left;
+        margin-top: 15px;
+        margin-left: 30px;
+        width: 10%;
+
+        height: 10px;
+        padding: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+        border-radius: 4px;
+      }
+
+      #features_link:hover {
+        background-color: darkcyan;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      .plan_col {
+        text-align: center;
+        width: 25%;
+        background-color: #edf5f7;
+        height: 450px;
+        display: inline-block;
+        margin: 15px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      }
+
+      .available {
+        font-size: 21px;
+      }
+
+      .buy {
+        background-color: #fc997c;
+        font-size: 20px;
+        border-radius: 5px;
+        width: 150px;
+        height: 35px;
+        padding: 5px;
+        padding-left: 9px;
+        display: inline-block;
+      }
+
+      .buy:hover {
+        background-color: darkcyan;
+        color: #fc997c;
+      }
+
+      .user_infos {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 25vh;
+        width: 100%;
+        background-color: darkcyan;
+      }
+
+      .user_col {
+        height: 100%;
+        width: 30%;
+        display: inline-block;
+      }
+
+      .user {
+        color: white;
+        margin: 0px;
+      }
+
+      .sayi {
+        margin-top: 15%;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="header_nav">
+        <a href=""
+          ><i
+            style="margin-left: 10px; margin-top: 5px"
+            class="fa-solid fa-film fa-2x"
+          ></i
+        ></a>
+        <a
+          style="margin-left: 0px; font-size: 30px"
+          id="main_header"
+          href="MovieApp.html"
+          >MovieApp</a
+        >
+        <ul id="header_links">
+          <li class="list">
+            <a id="filmler_link" href="MovieApp.html">Movies</a>
+          </li>
+          <li class="list">
+            <a id="diziler_link" href="series.html">Series</a>
+          </li>
+          <li class="list"><a id="login_link" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="head">
+        <h1 srt>Choose the best plan for yourself!</h1>
+        <p class="check">
+          <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i> Watch
+          whatever you want,without any adds.
+        </p>
+        <p class="check">
+          <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+          Just recommended contents for you.
+        </p>
+        <p class="check">
+          <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+          You can cancel or change your plan whenever you want.
+        </p>
+      </div>
+
+      <div class="features">
+        <img
+          style="height: 350px; float: left"
+          src="images/features.jpeg"
+          alt=""
+        />
+        <h1 style="margin-left: 560px">
+          Watch all of the Movies&TV Shows once they get released!
+        </h1>
+        <p style="font-size: 22px; margin-left: 560px">
+          MovieApp gives you the experience of watching the movie you want as
+          soon as it is released. You can watch all the popular, newly released
+          and most watched movies in the highest resolution without any
+          additional cost to your plan. Moreover, it is ad-free!
+        </p>
+        <a id="features_link" href="movies.html">View Features</a>
+      </div>
+      <div style="clear: both"></div>
+    </main>
+
+    <footer>
+      <h1>Become a Premium Member</h1>
+
+      <div class="plan_row">
+        <div class="plan_col">
+          <h1>Free</h1>
+          <h2>0$/Month</h2>
+          <p class="available">
+            <i style="color: firebrick" class="fa-solid fa-x fa-1x"></i>
+            HD available.
+          </p>
+          <p class="available">
+            <i style="color: firebrick" class="fa-solid fa-x fa-1x"></i>
+            Download and watch offline.
+          </p>
+
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            Unlimited Movie&TV shows.
+          </p>
+          <p class="available">
+            <i style="color: firebrick" class="fa-solid fa-x fa-1x"></i>
+            Watch on your telephone&tablet.
+          </p>
+
+          <p class="available">
+            <i style="color: firebrick" class="fa-solid fa-x fa-1x"></i>
+            Multiple devices are allowed.
+          </p>
+
+          <div class="buy">
+            <a href="">Buy</a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+
+        <div class="plan_col">
+          <h1>Recommended</h1>
+          <h2>20$/Month</h2>
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            HD available.
+          </p>
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            Download and watch offline.
+          </p>
+
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            Unlimited Movie&TV shows.
+          </p>
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            Watch on your telephone&tablet.
+          </p>
+
+          <p class="available">
+            <i style="color: firebrick" class="fa-solid fa-x fa-1x"></i>
+            Multiple devices are allowed.
+          </p>
+          <div class="buy">
+            <a href="">Buy</a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+
+        <div class="plan_col">
+          <h1>Premium</h1>
+          <h2>30$/Month</h2>
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            HD available.
+          </p>
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            Download and watch offline.
+          </p>
+
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            Unlimited Movie&TV shows.
+          </p>
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            Watch on your telephone&tablet.
+          </p>
+
+          <p class="available">
+            <i style="color: darkcyan" class="fa-solid fa-check fa-1x"></i>
+            Multiple devices are allowed.
+          </p>
+
+          <div class="buy">
+            <a href="">Buy</a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="user_infos">
+        <div class="user_col">
+          <p class="user sayi">974</p>
+          <p class="user type">Movies</p>
+        </div>
+
+        <div class="user_col">
+          <p class="user sayi">556</p>
+          <p class="user type">Series</p>
+        </div>
+
+        <div class="user_col">
+          <p class="user sayi">20.478</p>
+          <p class="user type">Users</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

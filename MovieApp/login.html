@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieApp | Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="header.css" />
+
+    <style>
+      body {
+        margin: 0px;
+        background-color: darkcyan;
+      }
+
+      main {
+        text-align: center;
+        align-items: center;
+      }
+
+      td {
+        font-size: 35px;
+        display: inline-block;
+      }
+
+      .login_infos {
+        border: none;
+        background-color: #fc997c;
+        padding: 15px;
+        border-radius: 30px;
+        margin-bottom: 7px;
+        font-size: 15px;
+      }
+      #button {
+        width: 80px;
+        border: none;
+        height: 25px;
+        background-color: white;
+        color: darkcyan;
+        font-weight: 500;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 9px;
+      }
+      #button:hover {
+        background-color: darkslategrey;
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="header_nav">
+        <a href="MovieApp.html"
+          ><i
+            style="margin-left: 10px; margin-top: 5px"
+            class="fa-solid fa-film fa-2x"
+          ></i
+        ></a>
+        <a
+          style="margin-left: 0px; font-size: 30px"
+          id="main_header"
+          href="MovieApp.html"
+          >MovieApp</a
+        >
+        <ul id="header_links">
+          <li><a id="filmler_link" href="movies.html">Movies</a></li>
+          <li><a id="diziler_link" href="series.html">Series</a></li>
+          <li><a id="login_link" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="row">
+        <h2 style="color: whitesmoke">Already have an account ?</h2>
+        <table style="width: 100%">
+          <tr>
+            <td><i class="fa-regular fa-user"></i></td>
+            <td>
+              <input class="login_infos" type="text" placeholder="User Name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-key"></i>
+            </td>
+            <td>
+              <input
+                class="login_infos"
+                type="password"
+                placeholder="Password"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a style="margin-right: 10px" id="button" href="MovieApp.html"
+                >Login</a
+              >
+            </td>
+            <td>
+              <a id="button" href="#">Forgot your password?</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h2 style="color: whitesmoke; font-size: 24px">
+                Create an account !
+              </h2>
+            </td>
+          </tr>
+          <tr>
+            <td><i class="fa-regular fa-user"></i></td>
+            <td>
+              <input class="login_infos" type="text" placeholder="User Name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-key"></i>
+            </td>
+            <td>
+              <input
+                class="login_infos"
+                type="password"
+                placeholder="Password"
+              />
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-person"></i></td>
+            <td>
+              <input
+                style="width: 225px; margin-left: 8px"
+                class="login_infos"
+                type="text"
+                placeholder="Name-Surname"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-calendar-days"></i>
+            </td>
+            <td>
+              <input
+                style="width: 220px; margin-left: 5px"
+                class="login_infos"
+                type="date"
+                placeholder="Password"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a id="button" href="MovieApp.html">Create</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

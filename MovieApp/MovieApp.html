@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieApp | Free Movies&Shows</title>
+    <link rel="s" href="images/favicon.png" type="image/x-png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <style>
+      main {
+        height: 100vh;
+        background-image: url(images/329605.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .search_box {
+        align-items: center;
+        position: absolute;
+        font-size: larger;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 610px;
+        height: 50px;
+        border-radius: 30px;
+        padding: 10px;
+        background-color: #fc997c;
+      }
+
+      .search_txt {
+        border: none;
+        color: whitesmoke;
+        background: none;
+        font-size: 22px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        width: 500px;
+        height: 60px;
+        outline: none;
+        padding-bottom: 15px;
+        line-height: 10px;
+      }
+
+      .how_it_works {
+        font-size: 30px;
+        text-align: center;
+        color: #3e4555;
+        font-weight: 700;
+      }
+
+      h2 {
+        display: inline-block;
+      }
+
+      .col {
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+        color: #3e4555;
+        font-weight: 700;
+      }
+      #icon1:hover {
+        color: darkcyan;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="header_nav">
+        <a href="MovieApp.html"
+          ><i
+            style="margin-left: 10px; margin-top: 5px"
+            class="fa-solid fa-film fa-2x"
+          ></i
+        ></a>
+        <a
+          style="margin-left: 0px; font-size: 30px"
+          id="main_header"
+          href="MovieApp.html"
+          >MovieApp</a
+        >
+        <ul id="header_links">
+          <li><a id="filmler_link" href="movies.html">Movies</a></li>
+          <li><a id="diziler_link" href="series.html">Series</a></li>
+          <li><a id="login_link" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="search_box">
+        <a id="search_button" href=""
+          ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+        ></a>
+        <input
+          class="search_txt"
+          type="text"
+          placeholder="Search for movies or TV shows..."
+        />
+      </div>
+    </main>
+
+    <footer>
+      <div class="how_it_works">
+        <p>How it works ?</p>
+        <p style="font-size: 18px; color: darkcyan">
+          We will show you step by step how to start watching your favorite
+          movies & tv shows!
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <a style="color: #fc997c" href="login.html"
+            ><i id="icon1" class="fa-solid fa-right-to-bracket fa-3x"></i
+          ></a>
+        </div>
+
+        <div class="col">
+          <a style="color: #fc997c" href="plan.html">
+            <i id="icon1" class="fa-brands fa-buffer fa-3x"></i>
+          </a>
+        </div>
+
+        <div class="col">
+          <a style="color: #fc997c" href="movies.html">
+            <i id="icon1" class="fa-regular fa-face-smile fa-3x"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>Sign Up</h2>
+          <p style="color: cadetblue">
+            By registering right now, you can join the fun-filled world of
+            MovieApp and browse through our different TV series & movies!
+          </p>
+        </div>
+
+        <div class="col">
+          <h2>Choose Your Plan</h2>
+          <p style="color: cadetblue">
+            You can use MovieApp for free, or you can take advantage of the
+            privileges by purchasing one of the plans offered by our site!
+          </p>
+        </div>
+
+        <div class="col">
+          <h2>Enjoy Movies</h2>
+          <p style="color: cadetblue">
+            Movie App offers you a whole new world with different TV series
+            content. Get a MovieApp account and start having fun right now!
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

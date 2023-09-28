@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieApp | Yahşi Batı</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Lato", sans-serif;
+      }
+
+      header {
+        margin: 0px;
+        background-color: #fc997c;
+      }
+
+      #main_header {
+        font-size: 21px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 20px;
+      }
+
+      #header_links {
+        display: inline-block;
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      li {
+        display: inline-block;
+        border: 1px white solid;
+        border-radius: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 4px;
+        padding-top: 4px;
+        font-size: 16px;
+        margin-right: 30px;
+        background-color: darkcyan;
+      }
+      body {
+        margin: 0px;
+      }
+
+      ul {
+        width: calc(100% - 200px);
+        text-align: right;
+        margin-top: 12px;
+      }
+
+      #header_nav {
+        height: 50px;
+      }
+
+      li:hover {
+        background-color: white;
+      }
+
+      li:hover a {
+        color: darkcyan;
+      }
+
+      .row {
+        align-items: center;
+        text-align: center;
+      }
+
+      .col {
+        margin-top: 20px;
+        margin-right:0px;
+        margin-left: 30px;
+        display: inline-block;
+        width: 30%;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+        border-radius: 20px;
+        font-size: 19px;
+      }
+
+      img {
+        width: 300px;
+        margin: 0px;
+        display: inline-block;
+      }
+
+      .infos{
+        margin:0px
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="header_nav">
+        <a href="MovieApp.html"
+          ><i
+            style="margin-left: 10px; margin-top: 5px"
+            class="fa-solid fa-film fa-2x"
+          ></i
+        ></a>
+        <a
+          style="margin-left: 0px; font-size: 30px"
+          id="main_header"
+          href="MovieApp.html"
+          >MovieApp</a
+        >
+        <ul id="header_links">
+          <li><a id="filmler_link" href="movies.html">Movies</a></li>
+          <li><a id="diziler_link" href="series.html">Series</a></li>
+          <li><a id="login_link" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="main">
+      <div class="row">
+        <iframe
+          style="margin: 80px"
+          width="1000"
+          height="600"
+          src="https://www.youtube.com/embed/r3fovpAfc5k"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="infos">
+        <div class="col">
+          <img src="images/yahsi_bati.jpg" alt="">
+        </div>
+        <div class="col">
+          <h2 style="float: left;color: white;">Yahşi Batı</h2>
+          <br><br><br>
+          <p>In 1881, two Ottoman Secret Agents travel to the USA, at the Sultan's request, to deliver a valuable diamond as a gift for the President.</p>
+          <p style="display: inline-block;"><i style="color:gold;" class="fa-solid fa-star"></i></p>
+          IMDb 3.5
+          <p>Yönetmen:Cem Yılmaz</p>
+          <p>Tür:Komedi</p>
+          <p>Oyuncular:Cem Yılmaz,Ozan Güven,Demet Evgar</p>
+      </div>
+    </div>
+  </body>
+</html>
